@@ -4,9 +4,6 @@
     margin: 0;
     font-family: 'Inter', sans-serif;
     color: #333333;
-
-    
-
 }
 
 h1{
@@ -15,24 +12,34 @@ h1{
     color: #333333;
 }
 
-.nav-food{
+.food-container{
+    display: flex;
     text-align: center;
     margin-top: 30px;
-    /* border: 2px solid black; */
     font-size: 32px;
+    flex: 1;
+    justify-content: space-between;
+    /* for debug purpose */
+    border: 2px solid black; 
 
 }
 
-.nav-food li{
-    padding: 10px;
-}
-
-.nav-food a{
+.food-container a{
     text-decoration: none;
     color: #6B8E23;
     font-family: 'Poppins', sans-serif;
     /* border: 2px solid red; */
 }
+
+.food-item{
+    padding: 10px;
+    align-items: center;
+    /* for debug purpose */
+    border: 2px solid black; 
+    margin: 0 20px;
+}
+
+
 
 /* Recipes folder */
 .nav-recipes li{
