@@ -20,7 +20,7 @@ h1{
     flex: 1;
     justify-content: space-evenly;
     /* for debug purpose */
-    border: 2px solid black; 
+    border: 2px solid black;
 
 }
 
@@ -33,12 +33,11 @@ h1{
 
 .food-item{
     padding: 10px;
-    align-items: center;
+    /* align-items: center; */
     /* for debug purpose */
     border: 2px solid black; 
     margin: 0 20px;
 }
-
 
 
 /* Recipes folder */
