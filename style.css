@@ -40,8 +40,15 @@ h1{
 
 
 /* Recipes folder */
+
+.nav-recipes ul{
+    display: flex;
+    list-style-type: none;
+    /* gap: 15px; */
+}
+
 .nav-recipes li{
-    display: inline-block;
+    /* display: inline-block; */
     padding: 10px;
     margin-top:  10px;
     /* border: 2px solid red; */
@@ -52,6 +59,11 @@ h1{
     color: #6B8E23;
     font-family: 'Poppins', sans-serif;
     font-size: 21px;
+}
+
+li.logo-odin{
+    margin-right: auto;
+    flex-shrink: 0;
 }
 
 img{
